@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #2D2241;
+    font-family: 'Rubik', sans-serif;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Lazer84.ttf);
+  }
+
+  .page-heading {
+    font-family: myFirstFont;
+  }
