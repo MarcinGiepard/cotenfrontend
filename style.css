@@ -1,21 +1,59 @@
-html {
+html{
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *:before, *:after{
     box-sizing: inherit;
 }
 
-body {
+body{
     background: #2D2241;
     font-family: 'Rubik', sans-serif;
 }
 
-@font-face {
+@font-face{
     font-family: myFirstFont;
     src: url(Lazer84.ttf);
-  }
+}
 
-  .page-heading {
-    font-family: myFirstFont;
-  }
+
+.page-header{
+      display: flex;
+      background: rgba(45,34,65,0.5);
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+}
+
+.page-logo{
+      height: 40%;
+      margin: 10px;
+}
+
+.nav-ul{
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 12px;;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    display: block;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
