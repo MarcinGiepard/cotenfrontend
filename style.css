@@ -62,12 +62,8 @@ a{
 }
 
 .page-heading{
-    font-family: myFirstFont;
     font-size: 48px;
-    font-weight: 700;
-    color: rgb(249, 200, 2);
-    text-shadow: 0 3px 0 rgb(227, 6, 19);
-    letter-spacing: .5rem;
+   
 }
 
 span{
@@ -113,11 +109,11 @@ span{
    padding-left: 40px;
 }
 
-.about__description {
+.about__description{
     margin-right: 100px;
 }
 
-.about__author--name {
+.about__author--name{
     background: -webkit-gradient(linear,left top,right top,from(#F9C802),to(#EC6C06));
     background: -webkit-linear-gradient(left,#F9C802,#EC6C06);
     background: -o-linear-gradient(left,#F9C802,#EC6C06);
@@ -133,8 +129,53 @@ span{
     margin: 3rem auto 0 3rem;
 }
     
-.about__author--job {
+.about__author--job{
     color: #747474;
     font-weight: 400;
     margin: 1rem 4rem;
+}
+
+.color-font{
+    font-family: myFirstFont;
+    font-weight: 700;
+    color: rgb(249, 200, 2);
+    text-shadow: 0 3px 0 rgb(227, 6, 19);
+    letter-spacing: .5rem;
+}
+
+.for-who__heading--title{
+    text-align: center;
+    font-size: 32px;
+}
+
+.for-who__box {
+    display: flex;
+    color: white;
+    font-family: rubik;
+    text-shadow: none;
+}
+
+.for-who__box--for-you, .for-who__box--not-for-you {
+    width: 50%;
+}
+
+.for-who--smaller-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.for-who--list-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-bottom: 16px;
+    padding-right: 16px;
+}
+
+
+.for-who__list {
+    list-style: disc;
+    padding: 0 20px 0 15px;
 }
