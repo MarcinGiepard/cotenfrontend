@@ -316,3 +316,52 @@ span{
     color: #f9c802;
     margin: 0 3px;
 }
+
+.author--title {
+    font-size: 32px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.author--img{
+    height: 130px;
+    width: 130px;
+    border-radius: 5rem 3rem 8rem 4.5rem;
+    margin: 20px 0 0 90px;
+}
+
+.author__box {
+    width: 60%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.author__picture {
+    width: 45%;
+}
+
+.author__description {
+    width: 45%;
+    padding: 5px;
+}
+
+.author--few-words {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.author__description span {
+    margin-top: 20px;
+}
+
+
+.page-footer {
+    height: 40px;
+    background: #efefef;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+}
+
